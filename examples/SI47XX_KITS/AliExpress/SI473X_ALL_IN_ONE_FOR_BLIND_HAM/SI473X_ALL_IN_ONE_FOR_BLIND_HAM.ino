@@ -375,7 +375,7 @@ void setup()
   delay(1000);
   // end Splash
 
-  // If you want to reset the eeprom, keep the VOLUME_UP button pressed during statup
+  // If you want to reset the eeprom, keep the ENCODER_BUTTON button pressed during statup
   if (digitalRead(ENCODER_BUTTON) == LOW)
   {
     oled.clear();
